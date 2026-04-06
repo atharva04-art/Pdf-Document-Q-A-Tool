@@ -206,8 +206,6 @@ screenshots/
 └── answer_with_sources.png
 ```
 
-Then add them in README like:
-
 ```markdown
 ## Screenshots
 
