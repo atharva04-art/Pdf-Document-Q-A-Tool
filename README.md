@@ -5,7 +5,7 @@ A lightweight **Retrieval-Augmented Generation (RAG)** prototype that allows use
 This project was built as a portfolio-ready prototype to demonstrate practical AI engineering skills relevant to **Junior AI Developer** roles, including:
 
 - Prompt engineering
-- Gemini API integration
+- Groq API integration
 - Data preprocessing
 - Semantic retrieval with embeddings
 - Retrieval-Augmented Generation (RAG)
@@ -16,7 +16,7 @@ This project was built as a portfolio-ready prototype to demonstrate practical A
 ## 🚀 Project Demo
 
 ### Core Idea
-Upload a PDF → Ask questions → Retrieve relevant chunks → Generate grounded answers with **Google Gemini** → Show source chunks for transparency.
+Upload a PDF → Ask questions → Retrieve relevant chunks → Generate grounded answers with **Groq api key** → Show source chunks for transparency.
 
 ---
 
@@ -36,18 +36,18 @@ Upload a PDF → Ask questions → Retrieve relevant chunks → Generate grounde
 - Retrieve top relevant chunks using cosine similarity
 
 ### 🤖 LLM Answer Generation
-- Uses **Google Gemini API (free tier)**:
-  - `gemini-1.5-flash`
-  - `gemini-2.0-flash`
+- Uses **Groq API (free tier)**:
+  - 'llama-3.3-70b-versatile'
+  - 'llama-3.1-8b-instant'
+  - 'mixtral-8x7b-32768'
 - Grounded answering based only on retrieved context
 - Reduces hallucination by exposing source chunks
 
 ### 🧪 Prompt Engineering Showcase
-Includes **3 prompt strategies**:
+Includes **2 prompt strategies**:
 
 1. **Basic Zero-shot**
 2. **Chain-of-Thought**
-3. **Grounded + Few-shot**
 
 You can:
 - Switch prompt strategy
@@ -67,7 +67,7 @@ You can:
 
 - **Python 3.9+**
 - **Streamlit**
-- **Google Gemini API**
+- **Groq API**
 - **PyPDF2**
 - **Sentence Transformers**
 - **FAISS**
@@ -123,16 +123,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4) Add Your Gemini API Key
+### 4) Add Your Groq API Key
 
 Create a `.env` file in the root folder:
 
 ```env
-GOOGLE_API_KEY=your_google_gemini_api_key_here
+GROQ_API_KEY=your_google_gemini_api_key_here
 ```
 
 You can get your free API key from:
-**Google AI Studio** → https://aistudio.google.com/
+**Groq cloud** → https://console.groq.com/keys
 
 ### 5) Run the App
 
@@ -164,8 +164,8 @@ The user’s question is embedded and matched against the chunk vectors using **
 ### Step 5: Prompt Construction
 The retrieved chunks are inserted into a selected prompt template.
 
-### Step 6: Gemini Generation
-Gemini generates an answer grounded in the retrieved document context.
+### Step 6: Groq api Generation
+Groq api generates an answer grounded in the retrieved document context.
 
 ---
 
@@ -194,16 +194,6 @@ This project intentionally includes multiple prompt strategies to demonstrate pr
 **Use case:** Slightly more analytical responses
 
 ---
-
-### 3) Grounded + Few-shot (Recommended)
-
-**Goal:** Most reliable document-grounded answers
-
-**Features:**
-- Few-shot examples
-- Source citation behavior
-- Explicit fallback:
-  - `"Not enough information in the document."`
 
 **Use case:** Best for factual PDF Q&A
 
@@ -319,11 +309,11 @@ Possible next upgrades:
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Atharva Thakur**  
 AI / ML Portfolio Project
 
-GitHub: [your-github-link]  
-LinkedIn: [your-linkedin-link]
+GitHub: https://github.com/atharva04-art 
+LinkedIn: linkedin.com/in/atharva-thakur-585579252
 
 ---
 
