@@ -199,28 +199,6 @@ This project intentionally includes multiple prompt strategies to demonstrate pr
 
 ---
 
-## 📸 Screenshot Guide (Add These Before GitHub Upload)
-
-You should add screenshots of:
-
-1. **Main app screen**
-   - Sidebar with PDF upload + model settings
-   - Chat interface visible
-
-2. **Answer with source chunks**
-   - Example question
-   - Generated answer
-   - Expanded source chunks
-
-3. **Prompt comparison view**
-   - Side-by-side outputs for:
-     - Basic
-     - CoT
-     - Grounded + Few-shot
-
-4. **Prompt viewer**
-   - Show the actual prompt used for one query
-
 ### Suggested Screenshot Filenames
 ```bash
 screenshots/
