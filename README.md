@@ -199,7 +199,7 @@ This project intentionally includes multiple prompt strategies to demonstrate pr
 
 ---
 
-### Suggested Screenshot Filenames
+### Screenshot Filenames
 ```bash
 screenshots/
 ├── home_ui.png
