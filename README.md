@@ -240,9 +240,6 @@ Then add them in README like:
 
 ### Answer + Sources
 ![Answer with Sources](screenshots/answer_with_sources.png)
-
-### Prompt Comparison
-![Prompt Comparison](screenshots/prompt_comparison.png)
 ```
 
 ---
