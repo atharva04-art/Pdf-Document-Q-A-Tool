@@ -201,9 +201,9 @@ This project intentionally includes multiple prompt strategies to demonstrate pr
 
 ### Screenshot Filenames
 ```bash
-screenshots/
+./screenshots/
 ├── home_ui.png
-└── answer_with_sources.png
+└── answer_with_source.png
 ```
 
 ```markdown
