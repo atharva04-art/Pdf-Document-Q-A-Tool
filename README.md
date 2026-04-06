@@ -225,9 +225,7 @@ You should add screenshots of:
 ```bash
 screenshots/
 ├── home_ui.png
-├── answer_with_sources.png
-├── prompt_comparison.png
-└── prompt_used.png
+└── answer_with_sources.png
 ```
 
 Then add them in README like:
@@ -249,7 +247,7 @@ Then add them in README like:
 This app is deployable for free on:
 
 ### Streamlit Community Cloud
-https://share.streamlit.io/
+https://pdf-document-q-a-tool-dgpayiwxzjfbjmypceany2.streamlit.app/
 
 ### Deployment Steps
 1. Push code to GitHub
@@ -310,7 +308,7 @@ Possible next upgrades:
 AI / ML Portfolio Project
 
 GitHub: https://github.com/atharva04-art 
-LinkedIn: linkedin.com/in/atharva-thakur-585579252
+LinkedIn: https://linkedin.com/in/atharva-thakur-585579252
 
 ---
 
